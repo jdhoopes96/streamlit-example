@@ -11,13 +11,7 @@ from langchain.llms import OpenAI
 from langchain.memory import ConversationBufferWindowMemory
 from langchain.prompts import PromptTemplate
 
-hide_streamlit_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            </style>
-            """
-st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
+
 
 def get_ai_response(human_input):
     template= """
@@ -74,3 +68,12 @@ with chat_placeholder.container():
 
 with st.container():
     st.text_input("", on_change=on_input_change, key="user_input")
+
+
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
