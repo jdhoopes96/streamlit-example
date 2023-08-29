@@ -3,7 +3,7 @@ import os
 import streamlit as st
 from streamlit_chat import message
 
-os.environ['OPENAI_API_KEY']='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'
+os.environ['OPENAI_API_KEY']='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'
 
 #####################################################
 from langchain.chains import LLMChain
