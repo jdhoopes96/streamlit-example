@@ -72,8 +72,10 @@ with st.container():
 
 hide_streamlit_style = """
             <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
+                .embeddedAppMetaInfoBar_container__DxxL1
+                {
+                    visibility:hidden;
+                }
             </style>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
