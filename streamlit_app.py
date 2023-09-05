@@ -47,9 +47,9 @@ def on_input_change():
     
 
 
-def on_btn_click():
-    st.session_state.past.clear()
-    st.session_state.generated.clear()
+#def on_btn_click():
+#    st.session_state.past.clear()
+#    st.session_state.generated.clear()
 
 
 st.session_state.setdefault('past', [])
