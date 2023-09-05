@@ -55,7 +55,7 @@ def on_btn_click():
 st.session_state.setdefault('past', [])
 st.session_state.setdefault('generated', [])
 
-st.title("Hi I'm :red[Bianca]")
+#st.title("Hi I'm :red[Bianca]")
 
 chat_placeholder = st.empty()
 
