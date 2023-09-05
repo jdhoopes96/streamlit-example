@@ -73,7 +73,7 @@ with st.container():
 
 hide_streamlit_style = """
             <style>
-                .embeddedAppMetaInfoBar_container__DxxL1
+                .hostedName
                 {
                     visibility:hidden;
                 }
