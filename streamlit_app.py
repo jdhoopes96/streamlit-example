@@ -6,7 +6,7 @@ from streamlit_chat import message
 
 #replace with new one and use secret method
 
-os.environ['OPENAI_API_KEY']='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'
+#os.environ['OPENAI_API_KEY']=
 
 #####################################################
 from langchain.chains import LLMChain
