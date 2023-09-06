@@ -70,7 +70,7 @@ with chat_placeholder.container():
 with st.container():
     st.text_input("", on_change=on_input_change, key="user_input")
 
-styl = f"""
+styl = """
     <style>
         .embeddedAppMetaInfoBar_container__DxxL1 {visibility: hidden;}
     </style>
