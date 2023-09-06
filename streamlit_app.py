@@ -66,8 +66,8 @@ chat_placeholder = st.empty()
 
 with chat_placeholder.container():    
     for i in range(len(st.session_state['generated'])):                
-        message(st.session_state['past'][i], avatar_style="initials", seed="Bianca Wilde", is_user=True, key=f"{i}_user_{st.session_state['past'][i]}")
-        message(st.session_state['generated'][i], key=f"{i}")
+        message(st.session_state['past'][i], avatar_style="initials", seed="User", is_user=True, key=f"{i}_user_{st.session_state['past'][i]}")
+        message(st.session_state['generated'][i], key=f"{i}",  avatar_style="initials", seed="Bianca Wilde",)
     
     #st.button("Clear messages", on_click=on_btn_click)
 
