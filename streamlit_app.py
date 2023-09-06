@@ -70,7 +70,12 @@ with chat_placeholder.container():
 with st.container():
     st.text_input("", on_change=on_input_change, key="user_input")
 
-
-st.set_page_config(
-	initial_sidebar_state="collapsed"
-)
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            div.embeddedAppMetaInfoBar_container__DxxL1 {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
