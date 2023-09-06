@@ -78,7 +78,7 @@ with st.container():
 st.markdown(
     """
 <style>
-    .avatar{visibility:hidden;}
+    .chat .avatar{visibility:hidden!important;}
 </style>
 """,
     unsafe_allow_html=True,
