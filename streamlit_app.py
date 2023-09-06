@@ -1,12 +1,12 @@
 ## This is the final One with no audio
-from getpass import getpass
+
 import os
 import streamlit as st
 from streamlit_chat import message
 
 #replace with new one and use secret method
-OPENAI_API_KEY = getpass()
-os.environ['OPENAI_API_KEY']=OPENAI_API_KEY
+
+os.environ['OPENAI_API_KEY']=os.environ.get("OPENAI_API_KEY")
 
 #####################################################
 from langchain.chains import LLMChain
