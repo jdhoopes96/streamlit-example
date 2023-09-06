@@ -24,7 +24,7 @@ def get_ai_response(human_input):
     
     {history}
     User: {human_input}
-    Amy:
+    Bianca:
     """
     prompt = PromptTemplate(
         input_variables=["history","human_input"],
