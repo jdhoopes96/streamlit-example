@@ -7,7 +7,7 @@ from streamlit_chat import message
 #replace with new one and use secret method
 
 #OPENAI_API_KEY=os.environ.get('OPENAI_API_KEY')
-os.environ['OPENAI_API_KEY']=os.getenv('OPENAI_API_KEY')
+#os.environ['OPENAI_API_KEY']=os.getenv('OPENAI_API_KEY')
 
 
 #####################################################
