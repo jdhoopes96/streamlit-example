@@ -73,7 +73,7 @@ with st.container():
 
 hide_streamlit_style = """
             <style>
-            [data-testid="stToolbar"] {visibility: hidden !important;}
+            .embeddedAppMetaInfoBar_container__DxxL1 {visibility: hidden !important;}
             footer {visibility: hidden !important;}
             </style>
             """
