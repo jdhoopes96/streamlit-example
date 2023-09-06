@@ -4,7 +4,8 @@ import streamlit as st
 from streamlit_chat import message
 
 #replace with new one and use secret method
-os.environ['OPENAI_API_KEY']="dummy-key"
+OPENAI_API_KEY = getpass()
+os.environ['OPENAI_API_KEY']=OPENAI_API_KEY
 
 #####################################################
 from langchain.chains import LLMChain
