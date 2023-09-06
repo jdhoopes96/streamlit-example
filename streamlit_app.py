@@ -71,10 +71,3 @@ with chat_placeholder.container():
 
 with st.container():
     st.text_input("", on_change=on_input_change, key="user_input")
-
-styl = """
-    <style>
-        footer {visibility: hidden;}
-    </style>
-"""
-st.markdown(styl, unsafe_allow_html=True)
