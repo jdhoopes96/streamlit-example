@@ -72,7 +72,7 @@ with st.container():
 
 styl = """
     <style>
-        .embeddedAppMetaInfoBar_container__DxxL1 {visibility: hidden;}
+        footer {visibility: hidden;}
     </style>
 """
 st.markdown(styl, unsafe_allow_html=True)
