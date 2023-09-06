@@ -1,4 +1,5 @@
 ## This is the final One with no audio
+from getpass import getpass
 import os
 import streamlit as st
 from streamlit_chat import message
