@@ -71,10 +71,6 @@ with st.container():
     st.text_input("", on_change=on_input_change, key="user_input")
 
 
-hide_streamlit_style = """
-            <style>
-            .embeddedAppMetaInfoBar_container__DxxL1 {visibility: hidden !important;}
-            footer {visibility: hidden !important;}
-            </style>
-            """
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+st.set_page_config(
+	initial_sidebar_state="collapsed"
+)
